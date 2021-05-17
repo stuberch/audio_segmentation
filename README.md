@@ -5,7 +5,7 @@ This project is part of a master thesis researching 'automated segmentation of t
 The dataset consists of 23 different versions of Mozarts opera *Die Zauberflöte* stored in the [Ehrenreich collection](https://ehrenreich.bfh.science/data/) (not open to public). To test the script 1'318 manually annotated segments where used, that can be found in [assets](https://github.com/stuberch/audio_segmentation/tree/main/assets).
 
 # Paper
-The paper is available opon request via the [author](christian.stuber@students.bfh.ch) or the [supervisor](eduard.klein@bfh.ch).
+The paper is available opon request via the [author](mailto:christian.stuber@students.bfh.ch) or the [supervisor](mailto:eduard.klein@bfh.ch).
 
 # Requirements
 * Python 3.8
