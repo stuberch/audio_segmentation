@@ -20,4 +20,4 @@ The final script is 'audioSegmentation_A4.py' in connection with 'supportClasses
 * Version A3 - Constraints
 * Version A4 - Parameter Tweaking (final)
 
-The script takes a reference file (.wav) and segmentation (.csv) and searches for the same audio sequences in the assets folder. If test data is provided, the received segments are automatically tested based on their similarity with the *Jaccard Index*. Output of the script are the two files *results.csv*, containing the automatically annotated segments and *log.csv*, measuring the performance of the script.
+The script takes a reference version (.wav) and segmentation (.csv) and searches for the same audio sequences in the unknown versions (.wav) in the assets folder. If test data (.csv) of those versions is provided, the received segments are automatically tested based on their similarity with the *Jaccard Index*. Output of the script are the two files *results.csv*, containing the automatically annotated segments and *log.csv*, measuring the performance of the script.
