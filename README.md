@@ -8,9 +8,9 @@ The dataset consists of 23 different versions of Mozarts opera *Die Zauberflöte
 The paper was not published but can be optained by requesting (christian.stuber@students.bfh.ch) and the supervisor (eduard.klein@bfh.ch).
 
 # Requirements
-Python 3.8
-librosa 0.8.0
-matplotlib (only for the notebooks)
+* Python 3.8
+* librosa 0.8.0
+* matplotlib (only for the notebooks)
 
 # Files
 The final script is 'audioSegmentation_A4.py' in connection to 'supportClasses.py'. All other files are previous versions or testcases of different functions of the script.
