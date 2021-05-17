@@ -13,11 +13,11 @@ The paper was not published but is available opon request via the author (christ
 * matplotlib (only for the notebooks)
 
 # Audio Segmentation Script
-The final script is 'audioSegmentation_A4.py' in connection with 'supportClasses.py'. All other files are previous versions or testcases of different functions of the script.
+The final script is [audioSegmentation_A4.py](https://github.com/stuberch/audio_segmentation/blob/main/audioSegmentation_A4.py) in connection with [supportClasses.py'](https://github.com/stuberch/audio_segmentation/blob/main/supportClasses.py) All other files are previous versions or test cases of different functions of the script.
 
-* Version A1 - Basis
-* Version A2 - Semitone Tuning
-* Version A3 - Constraints
-* Version A4 - Parameter Tweaking (final)
+* [Version A1 - Basis](https://github.com/stuberch/audio_segmentation/blob/main/audioSegmentation_A1.py)
+* [Version A2 - Semitone Tuning](https://github.com/stuberch/audio_segmentation/blob/main/audioSegmentation_A2.py)
+* [Version A3 - Constraints](https://github.com/stuberch/audio_segmentation/blob/main/audioSegmentation_A3.py)
+* [Version A4 - Parameter Tweaking (final)](https://github.com/stuberch/audio_segmentation/blob/main/audioSegmentation_A4.py)
 
 The script takes a reference version (.wav) and segmentation (.csv) and searches for the same audio sequences in the unknown versions (.wav) in the assets folder. If test data (.csv) of those versions is provided, the received segments are automatically tested based on their similarity with the *Jaccard Index*. Output of the script are the two files *results.csv*, containing the automatically annotated segments and *log.csv*, measuring the performance of the script.
